@@ -5,7 +5,7 @@ import { AngularFireDatabaseModule } from 'angularfire2/database';
 import { RouterModule } from '@angular/router';
 import { ReactiveFormsModule } from '@angular/forms';
 
-import { environment } from '../environments/environment';
+import { environment } from '../environments/environment.prod';
 import { appRoutes } from './router.module';
 
 import { AppComponent } from './app.component';
